@@ -4,12 +4,7 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: " ",
-  authDomain: " ",
-  projectId: " ",
-  storageBucket: " ",
-  messagingSenderId: " ",
-  appId: " "
+  
 };
 
 // Initialize Firebase

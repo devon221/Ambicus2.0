@@ -11,7 +11,7 @@ function Navbar() {
         <li id="chat"><Link to="/chat">chat</Link></li>
         <li id="notes"><Link to="/notes">notes</Link></li>
 
-        <li id="abt-us"><Link to="/aboutUs">About Us</Link></li>
+        <li id="abt-us"><Link to="/">About Us</Link></li>
       </div>
     </div>
   )

@@ -1,11 +1,16 @@
-.btn-st{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(247, 110, 238);
+
+input{
+
 }
 
- .search-notes-box li{
+ .search-notes-box ul li{
     list-style: none;
     text-decoration: none;
     padding : 20px ;
  }
+
+  .upload-files-box ul li{
+    list-style: none;
+
+  }
+ 

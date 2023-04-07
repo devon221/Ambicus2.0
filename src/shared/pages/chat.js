@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Notes() {
+const Chat = ( ) =>  {
   return (
     <div>chat</div>
   )
 }
 
-export default Notes
+export default Chat

@@ -1,0 +1,17 @@
+.card-container {
+    width: 200px;
+    height: 50px;
+    border-radius : 10px; 
+    background-color: rgb(239, 195, 250);
+    margin : 10px ;
+    display: inline-block;
+}
+
+.card-container li{
+    list-style : none;
+    text-decoration: none;
+    color : black;
+    display: flex ;
+    justify-content: center;
+    
+}
