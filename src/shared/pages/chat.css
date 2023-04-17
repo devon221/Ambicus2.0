@@ -1,0 +1,46 @@
+.chat-container{
+    background-color: rgb(255, 255, 255);
+    height : 100vh ;
+    display : flex ; 
+    align-items: center;
+    justify-content: center;
+    width : 100vw;
+}
+
+.chat-wrapper{
+    
+    border-radius: 10px ;
+    width : 65% ;
+    height : 80% ;
+    display : flex; 
+    overflow: hidden;
+}
+
+.sidebar{
+    width : 30%;
+    background-color: rgb(249, 51, 236);
+    border-right : 1px solid rgb(249, 51, 236);
+}
+
+.chat {
+    width : 70% ;
+   
+}
+.useChat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 10px ;
+}
+
+.useChat:hover{
+    cursor: pointer; 
+    background-color: rgb(242, 172, 237);
+    transition: 0.3s;
+}
+img{
+    width : 50px ;
+    height: 50px;
+    border-radius: 50% ;
+    object-fit: contain;
+}

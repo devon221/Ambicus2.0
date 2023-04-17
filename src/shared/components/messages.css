@@ -1,0 +1,40 @@
+.messages{
+    overflow: scroll ;
+    width : 700px;
+    height : 100% ;
+}
+
+.input-message{
+    height : 50px ;
+    width : 500px;
+    padding : 10px ;
+    display : flex ;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    align-self: center;
+    bottom : 0px;
+}
+.input-message input {
+    border : none ;
+    border-bottom: black solid 0.8px ;
+    background-color: rgb(254, 254, 254);
+    outline : none ;
+    width : 90% ;
+    height : 30px;
+}
+button{
+    border: none;
+    padding : 5px ;
+    width : 70px;
+    height : 30px;
+    background-color: rgb(240, 213, 238);
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(150, 83, 146);
+    transition: 0.3s;
+    color: white ;
+}
